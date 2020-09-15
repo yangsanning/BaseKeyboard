@@ -1,0 +1,19 @@
+ext {
+    version = [
+            minSdkVersion    : 19,
+            compileSdkVersion: 30,
+            targetSdkVersion : 30,
+            versionCode      : 10000,
+            versionName      : "1.0.0",
+    ]
+
+    dependVersion = [
+            appcompat       : "1.1.0",
+    ]
+
+    baseLib = [
+            appcompat       : "androidx.appcompat:appcompat:$dependVersion.appcompat",
+    ]
+
+    baseLibs = baseLib.values()
+}
