@@ -1,2 +1,3 @@
+include ':keyboard'
 include ':app'
 rootProject.name = "BaseKeyboard"

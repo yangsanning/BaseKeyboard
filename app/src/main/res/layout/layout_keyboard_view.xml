@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ysn.com.basekeyboard.base.BaseKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/c_d2d5db"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyTextColor="@color/c_333333"
+    android:keyTextSize="20sp" />
